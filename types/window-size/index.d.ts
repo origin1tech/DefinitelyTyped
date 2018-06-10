@@ -18,7 +18,7 @@ declare module 'window-size' {
   }
 
   interface IWindowSize {
-    get?(): IResult;
+    get?(options?: IOptions): IResult;
   }
 
   const ws: IWindowSize & IResult;
